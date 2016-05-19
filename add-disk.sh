@@ -10,6 +10,8 @@ echo "Disk Adder"
 echo "Adds a disk to a mount location."
 if [ $(whoami) = "root" ]; then # If Root
   echo
+  echo "Available disks"
+  lsblk
   read -p "Enter the name of the disk you would like to add ("$DiskName"): " DiskNameNew
   if [ $DiskNameNew ]; then
     DiskName=$DiskNameNew
