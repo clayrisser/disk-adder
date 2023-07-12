@@ -1,6 +1,8 @@
 # disk-adder
 Adds a disk to a mount location.
 
+![](assets/disk-adder.png)
+
 Example use cases for Disk Adder:
 
 1. Create a separate /home partition.
